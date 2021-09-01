@@ -1,2 +1,2 @@
-# MicroTrain's Dev Boot Camp
+# MicroTrain's Dev Boot
 Working Directory for MicroTrain Bootcamp
