@@ -1,23 +1,20 @@
 <?php
 
-$items = [
+$items = array(
   'for',
   'foreach',
   'while',
   'do-while'
-];
+);
 
-$count = count($items);
+echo 'PHP Supports ' . count($items) . ' of loops.';
 
-echo "PHP Supports {$count} of loops.";
-
-$i = 0;
-$li=null;
-while ($i < $count) {
-  $li .= "<li>{$items[$i]}</li>";
-  $i++;
+$li = '';
+foreach($items as $item){
+  $li .= "<li>{$item}</li>";
 }
 
 echo "<ul>{$li}</ul>";
+
 
 

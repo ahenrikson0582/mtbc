@@ -22,3 +22,4 @@ if($color == "#ff0000"){
 
 //Output the data
 echo "<div style=\"color:{$color}\">The color is {$label}</div>";
+
